@@ -4,7 +4,7 @@ set -e
 
 mkdir -p svg_output
 
-cat > svg_output/P01_cover.svg << 'SVG_EOF'
+cat > svg_output/P01_cover.svg << 'EOF'
 $ mkdir -p /svg_output 
 cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答辩_ppt169_20260504/svg_output/P01_cover.svg << 'SVG_EOF' 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720">
@@ -50,6 +50,7 @@ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答辩
 </svg>
 EOF
 
+cat > svg_output/P02_toc.svg << 'EOF'
 $ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答辩_ppt169_20260504/svg_output/P02_toc.svg << 'SVG_EOF'
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720">
   <defs>
@@ -105,7 +106,7 @@ $ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答�
 EOF
 
 
-$ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答辩_ppt169_20260504/svg_output/P03_background.svg << 'SVG_EOF'
+$ cat > svg_output/P03_background.svg << 'EOF'
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720">
   <defs>
     <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -153,7 +154,7 @@ $ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答�
 </svg>
 EOF
 
-$ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答辩_ppt169_20260504/svg_output/P04_vcsel_challenge.svg << 'SVG_EOF'
+$ cat > svg_output/P04_vcsel_challenge.svg << 'EOF'
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720">
   <defs>
     <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -213,7 +214,7 @@ $ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答�
 </svg>
 EOF
 
-$ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答辩_ppt169_20260504/svg_output/P05_research_goals.svg << 'SVG_EOF'
+$ cat > svg_output/P05_research_goals.svg << 'EOF'
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720">
   <defs>
     <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -265,7 +266,7 @@ $ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答�
 </svg>
 EOF
 
-$ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答辩_ppt169_20260504/svg_output/P06_vcsel_modes.svg << 'SVG_EOF'
+$ cat > svg_output/P06_vcsel_modes.svg << 'EOF'
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720">
   <defs>
     <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -317,7 +318,7 @@ $ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答�
 </svg>
 EOF
 
-$ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答辩_ppt169_20260504/svg_output/P07_asm_theory.svg << 'SVG_EOF'
+$ cat > svg_output/P07_asm_theory.svg << 'EOF'
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720">
   <defs>
     <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -392,7 +393,7 @@ $ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答�
 </svg>
 EOF
 
-$ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答辩_ppt169_20260504/svg_output/P08_d2nn_principle.svg << 'SVG_EOF'
+$ cat > svg_output/P08_d2nn_principle.svg << 'EOF'
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720">
   <defs>
     <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -492,7 +493,7 @@ $ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答�
 </svg>
 EOF
 
-$ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答辩_ppt169_20260504/svg_output/P09_model_params.svg << 'SVG_EOF'
+$ cat > svg_output/P09_model_params.svg << 'EOF'
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720">
   <defs>
     <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -573,7 +574,7 @@ $ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答�
 </svg>
 EOF
 
-$ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答辩_ppt169_20260504/svg_output/P10_experiment_env.svg << 'SVG_EOF'
+$ cat > svg_output/P10_experiment_env.svg << 'EOF'
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720">
   <defs>
     <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -680,7 +681,7 @@ $ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答�
 </svg>
 EOF
 
-$ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答辩_ppt169_20260504/svg_output/P11_qat.svg << 'SVG_EOF'
+$ cat > svg_output/P11_qat.svg << 'EOF'
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720">
   <defs>
     <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -786,7 +787,7 @@ $ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答�
 </svg>
 EOF
 
-$ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答辩_ppt169_20260504/svg_output/P12_loss_optimizer.svg << 'SVG_EOF'
+$ cat > svg_output/P12_loss_optimizer.svg << 'EOF'
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720">
   <defs>
     <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -851,7 +852,7 @@ $ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答�
 </svg>
 EOF
 
-$ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答辩_ppt169_20260504/svg_output/P13_results.svg << 'SVG_EOF'
+$ cat > svg_output/P13_results.svg << 'EOF'
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720">
   <defs>
     <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -957,7 +958,7 @@ $ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答�
 </svg>
 EOF
 
-$ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答辩_ppt169_20260504/svg_output/P14_layer_analysis.svg << 'SVG_EOF'
+$ cat > svg_output/P14_layer_analysis.svg << 'EOF'
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720">
   <defs>
     <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -1057,7 +1058,7 @@ $ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答�
 </svg>
 EOF
 
-$ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答辩_ppt169_20260504/svg_output/P15_confusion_matrix.svg << 'SVG_EOF'
+$ cat > svg_output/P15_confusion_matrix.svg << 'EOF'
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720">
   <defs>
     <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -1115,7 +1116,7 @@ $ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答�
 </svg>
 EOF
 
-$ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答辩_ppt169_20260504/svg_output/P16_phase_quantization.svg << 'SVG_EOF'
+$ cat > svg_output/P16_phase_quantization.svg << 'EOF'
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720">
   <defs>
     <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -1203,7 +1204,7 @@ $ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答�
 </svg>
 EOF
 
-$ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答辩_ppt169_20260504/svg_output/P17_fabrication.svg << 'SVG_EOF'
+$ cat > svg_output/P17_fabrication.svg << 'EOF'
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720">
   <defs>
     <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -1283,7 +1284,7 @@ $ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答�
 </svg>
 EOF
 
-$ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答辩_ppt169_20260504/svg_output/P18_summary.svg << 'SVG_EOF'
+$ cat > svg_output/P18_summary.svg << 'EOF'
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720">
   <defs>
     <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -1346,7 +1347,7 @@ $ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答�
 </svg>
 EOF
 
-$ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答辩_ppt169_20260504/svg_output/P19_future.svg << 'SVG_EOF'
+$ cat > svg_output/P19_future.svg << 'EOF'
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720">
   <defs>
     <linearGradient id="hdrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -1424,7 +1425,7 @@ $ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答�
 </svg>
 EOF
 
-$ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答辩_ppt169_20260504/svg_output/P20_acknowledgement.svg << 'SVG_EOF'
+$ cat > svg_output/P20_acknowledgement.svg << 'EOF'
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720">
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -1470,4 +1471,4 @@ $ cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答�
 </svg>
 SVG_EOF
 
-echo "P01 done"
+echo " done"
