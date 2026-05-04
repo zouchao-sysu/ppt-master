@@ -5,7 +5,7 @@ set -e
 mkdir -p svg_output
 
 cat > svg_output/P01_cover.svg << 'SVG_EOF'
-$ mkdir -p /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答辩_ppt169_20260504/svg_output 
+$ mkdir -p /svg_output 
 cat > /home/runner/work/ppt-master/ppt-master/projects/邹超-毕业论文答辩_ppt169_20260504/svg_output/P01_cover.svg << 'SVG_EOF' 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1280 720" width="1280" height="720"> 
 <defs> 
